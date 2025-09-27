@@ -112,10 +112,12 @@ ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
 <img width="666" height="223" alt="Screenshot 2025-09-27 125242" src="https://github.com/user-attachments/assets/1b781f42-4cf8-4f62-a83b-3b93ea055059" />
+
 <img width="874" height="899" alt="Screenshot 2025-09-27 125043" src="https://github.com/user-attachments/assets/12f3c35d-7158-4b98-953e-a875f520d729" />
 
 •	show ip route on R1 and R2<br>
 <img width="875" height="892" alt="Screenshot 2025-09-27 124911" src="https://github.com/user-attachments/assets/2577d3f6-0a8e-498a-acb4-4792db609b8c" />
+
 <img width="874" height="899" alt="Screenshot 2025-09-27 125043" src="https://github.com/user-attachments/assets/ea610f39-5ead-4850-a7be-96e64a14168c" />
 
 •	Successful ping PC1 → PC4; R2 → PC2<br>
