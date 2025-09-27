@@ -1,22 +1,22 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
 # Date: 27/9/25
-________________________________________<br>
+<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
 •	Display key router information (interfaces, status, routing table).<br>
 •	Configure IPv4 addresses and descriptions on R1 and R2 interfaces.<br>
 •	Bring interfaces up and verify with show commands and pings. <br>
-________________________________________<br>
+<br>
 # Apparatus / Tools Required
 •	Cisco Packet Tracer<br>
 •	2 Routers (R1, R2 — 2911 or equivalent)<br>
 •	2 Switches (S1, S2)<br>
 •	4 PCs (PC1–PC4) with NICs<br>
 •	Copper straight-through cables for LAN links; Serial DCE/DTE cable for WAN link <br>
-________________________________________<br>
+<br>
 # Network Topology Diagram
 (Insert your Packet Tracer screenshot showing R1—S1—PC1/PC2 and R2—S2—PC3/PC4, plus R1–R2 Serial link S0/0/0.)<br>
-________________________________________<br>
+<br>
 Addressing Table (from activity)<br>
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
 R1	G0/0	192.168.10.1	255.255.255.0	—<br>
@@ -30,8 +30,7 @@ PC2	NIC	192.168.11.10	255.255.255.0	192.168.11.1<br>
 PC3	NIC	10.1.1.10	255.255.255.0	10.1.1.1<br>
 PC4	NIC	10.1.2.10	255.255.255.0	10.1.2.1<br>
 Note (per activity): Console password = cisco; Privileged EXEC password = class. <br>
-________________________________________<br>
-# Procedure
+
 # Part 1: Display Router Information (R1 shown; repeat on R2)
 1.	Click R1 → CLI. If prompted, use console password cisco, then enable and password class. <br>
 2.	View interface statistics (all):<br>
